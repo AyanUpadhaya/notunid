@@ -1,0 +1,28 @@
+{
+  "name": "notunid",
+  "version": "1.0.0",
+  "description": "A package for generating unique IDs",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AyanUpadhaya/notunid"
+  },
+  "keywords": [
+    "unique",
+    "id",
+    "generator",
+    "npm"
+  ],
+  "author": "Ayan Upadhaya",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/yourusername/notunid/issues"
+  },
+  "homepage": "https://github.com/yourusername/notunid#readme",
+  "dependencies": {
+    "crypto": "^1.0.1"
+  }
+}
