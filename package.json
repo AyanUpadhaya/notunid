@@ -19,9 +19,9 @@
   "author": "Ayan Upadhaya",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/yourusername/notunid/issues"
+    "url": "https://github.com/AyanUpadhaya/notunid/issues"
   },
-  "homepage": "https://github.com/yourusername/notunid#readme",
+  "homepage": "https://github.com/AyanUpadhaya/notunid#readme",
   "dependencies": {
     "crypto": "^1.0.1"
   }
