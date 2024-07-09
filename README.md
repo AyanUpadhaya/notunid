@@ -10,7 +10,7 @@ You can install the package using npm:
 npm install notunid
 ``` 
 
-### Usage
+## Usage
 
 ``` js
 const { randomIdGenerate, randomTextGenerate } = require('notunid');
@@ -34,3 +34,6 @@ const invalidRandomText = randomTextGenerate("invalid");
 console.log(`Generated Random Text with default length: ${invalidRandomText}`);
 
 ```
+
+## Contributing
+Contributions are welcome! Please open an issue or submit a pull request for any changes or improvements.
