@@ -22,7 +22,5 @@
     "url": "https://github.com/AyanUpadhaya/notunid/issues"
   },
   "homepage": "https://github.com/AyanUpadhaya/notunid#readme",
-  "dependencies": {
-    "crypto": "^1.0.1"
-  }
+  "dependencies": {}
 }
