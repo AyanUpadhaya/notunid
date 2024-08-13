@@ -1,16 +1,5 @@
-const { randomNumber } = require("./index");
+const { randomChoice, randomNumber, randomShuffle } = require("./index");
 
-//no value provided - default values get used
-console.log("No value: "+ randomNumber())
+const test_array =["rahul","salman","Kuber","Kiriti"]
 
-// spcified range
-console.log("Specified: "+ randomNumber(10,20))
-
-//one value - one value becomes end value
-console.log("One value: ",randomNumber(27))
-
-//same value - returns same value
-console.log('Same value: '+randomNumber(7,7))
-
-//float value -returns base 10
-console.log("Float value: "+randomNumber(5.6,15.6))
+console.log(randomShuffle(test_array));

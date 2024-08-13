@@ -56,7 +56,7 @@ function randomNumber(start = 0, end = 10) {
 function randomChoice(arr = []) {
   const arrayLength = arr.length;
   if (arrayLength == 0) return [];
-  const getRandomValue = randomNumber(arrayLength)
+  const getRandomValue = Math.floor(Math.random() * parseInt(arrayLength));
 
   return arr[getRandomValue];
 }
@@ -73,7 +73,7 @@ function randomShuffle(arr = []) {
   const shuffledArray = [];
 
   while (shuffledArray.length !== arrayLength) {
-    const getRandomValue = randomNumber(arrayLength);
+    const getRandomValue = Math.floor(Math.random() * parseInt(arrayLength));
     if (!shuffledArray.includes(coppiedArray[getRandomValue])) {
       shuffledArray.push(coppiedArray[getRandomValue]);
     }
